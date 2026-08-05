@@ -1,0 +1,40 @@
+footer {
+  margin-top: 80px;
+  padding: 40px 10%;
+  background: #04050f;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, .08);
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #00e5ff;
+  border: 2px solid #00e5ff;
+  font-size: 22px;
+  transition: .4s;
+}
+
+.footer-social a:hover {
+  background: #00e5ff;
+  color: #050816;
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px cyan;
+}
+
+footer p {
+  color: #aaaaaa;
+  font-size: 15px;
+  letter-spacing: 1px;
+}

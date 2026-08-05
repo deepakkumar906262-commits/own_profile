@@ -1,0 +1,31 @@
+.resume-box {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, .05);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  text-align: center;
+  transition: .4s;
+}
+
+.resume-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(0, 229, 255, .35);
+}
+
+.resume-box h3 {
+  font-size: 30px;
+  color: #00e5ff;
+  margin-bottom: 20px;
+}
+
+.resume-box p {
+  color: #cccccc;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+
+.resume-box .btn {
+  margin-top: 20px;
+}

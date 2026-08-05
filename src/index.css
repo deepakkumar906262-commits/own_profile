@@ -1,0 +1,122 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #050816;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 10%;
+}
+
+/* Animated Background */
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 20% 20%, #00e5ff30, transparent 25%),
+    radial-gradient(circle at 80% 70%, #8a2be230, transparent 25%),
+    radial-gradient(circle at 50% 50%, #1e90ff20, transparent 30%),
+    #050816;
+}
+
+/* Global Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.section-title span {
+  color: #00e5ff;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background: #00e5ff;
+  color: #000;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: .4s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px cyan;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 14px 35px;
+  border: 2px solid #00e5ff;
+  color: #00e5ff;
+  border-radius: 40px;
+  transition: .4s;
+}
+
+.btn2:hover {
+  background: #00e5ff;
+  color: #000;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00e5ff;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7b2ff7;
+}
+
+::selection {
+  background: #00e5ff;
+  color: #000;
+}
+
+@media (max-width: 992px) {
+  section {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 36px;
+  }
+}

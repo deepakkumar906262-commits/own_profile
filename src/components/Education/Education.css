@@ -1,0 +1,42 @@
+.timeline {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.timeline-box {
+  background: rgba(255, 255, 255, .05);
+  padding: 30px;
+  border-left: 5px solid #00e5ff;
+  border-radius: 12px;
+  transition: .4s;
+}
+
+.timeline-box:hover {
+  transform: translateX(10px);
+  box-shadow: 0 0 25px rgba(0, 229, 255, .35);
+}
+
+.timeline-box h3 {
+  color: #00e5ff;
+  font-size: 24px;
+}
+
+.timeline-box h4 {
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.timeline-box span {
+  display: inline-block;
+  margin: 12px 0;
+  color: #bbbbbb;
+  font-size: 15px;
+}
+
+.timeline-box p {
+  color: #cccccc;
+  line-height: 28px;
+}
